@@ -1,6 +1,6 @@
 1,Coke,Coke,Coke,10,SoftDrink
 2,Pepsi,Pepsi,Pepsi,10,SoftDrink
-3,Fanta,Fanta,Fanta,10,SoftDrink
+3,Fanta,Fanta,Fanta,20,SoftDrink
 4,Sprite,Sprite,Sprite,10,SoftDrink
 6,7UP,7UP,7UP,10,SoftDrink
 8,Sting,Sting,Sting,10,SoftDrink
