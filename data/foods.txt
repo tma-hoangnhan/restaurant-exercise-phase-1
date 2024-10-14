@@ -1,0 +1,5 @@
+1,Noodles,Noodles,Noodles,10,Breakfast
+2,Hamburger,Hamburger,Hamburger,35,Breakfast
+3,Rice,Rice,Rice,10,Lunch
+4,Pasta,Pasta,Pasta,10,Lunch
+5,Beefsteak,Beefsteak,Beefsteak,20,Dinner
