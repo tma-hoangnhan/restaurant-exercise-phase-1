@@ -69,12 +69,21 @@ public class BillController {
         }
     }
 
+    int generateId(Map<Integer, Bill> billMap) {
+        int max = 0;
+        for (Integer key : billMap.keySet()) {
+            if (key > max)
+                max = key;
+        }
+        return max + 1;
+    }
+
     /**
      * Create a new bill then saving to file
      */
     public void save() {
         Map<Integer, Bill> billMap = loadBillsFromFile();
-        int nextID = billMap.size() + 1;
+        int nextID = generateId(billMap);
         billMap.put(nextID, new Bill(nextID, LocalDate.now()));
         saveToFile(billMap);
     }
